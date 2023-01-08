@@ -31,7 +31,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="build app" />
+    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="fix gitignore">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +77,6 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/home/chacka/Project/nodejs-app-with-docker",
     "node.js.detected.package.eslint": "true",
@@ -119,13 +122,7 @@
       <workItem from="1673204647916" duration="175000" />
       <workItem from="1673204840047" duration="66000" />
       <workItem from="1673204923527" duration="1562000" />
-    </task>
-    <task id="LOCAL-00003" summary="update test message">
-      <created>1592124411761</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1592124411761</updated>
+      <workItem from="1673206507357" duration="392000" />
     </task>
     <task id="LOCAL-00004" summary="add a simple express app">
       <created>1592124938673</created>
@@ -463,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673190221284</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="fix gitignore">
+      <created>1673206777551</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1673206777552</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update package" />
     <MESSAGE value="init enzyme" />
     <MESSAGE value="fix package-lock.json" />
     <MESSAGE value="add eslint" />
@@ -518,6 +521,7 @@
     <MESSAGE value="dockerize dev" />
     <MESSAGE value="run tests" />
     <MESSAGE value="build app" />
-    <option name="LAST_COMMIT_MESSAGE" value="build app" />
+    <MESSAGE value="fix gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix gitignore" />
   </component>
 </project>

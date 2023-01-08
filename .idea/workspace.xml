@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:test" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="build app" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="AntonChaukin" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="nodejs-app-with-docker" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1dIqta8NS5ZRs9IU0RYAygZF9TN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/chacka/Project/nodejs-app-with-docker",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="" />
+      <created>1592123169625</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592123169625</updated>
+      <workItem from="1592123171150" duration="20987000" />
+      <workItem from="1592197212764" duration="1553000" />
+      <workItem from="1592244965875" duration="5163000" />
+      <workItem from="1592288259572" duration="105000" />
+      <workItem from="1593666676379" duration="743000" />
+      <workItem from="1593672952268" duration="31000" />
+      <workItem from="1593675579057" duration="17000" />
+      <workItem from="1593717230317" duration="540000" />
+      <workItem from="1593754522178" duration="14000" />
+      <workItem from="1594561095187" duration="6190000" />
+      <workItem from="1594567391217" duration="5166000" />
+      <workItem from="1594578432135" duration="4862000" />
+      <workItem from="1594619043591" duration="2063000" />
+      <workItem from="1594622494436" duration="7446000" />
+      <workItem from="1595870187376" duration="8984000" />
+      <workItem from="1597050864328" duration="447000" />
+      <workItem from="1672909948741" duration="2336000" />
+      <workItem from="1672923431041" duration="3565000" />
+      <workItem from="1673106867497" duration="7495000" />
+      <workItem from="1673167362118" duration="3679000" />
+      <workItem from="1673179697853" duration="7061000" />
+      <workItem from="1673204647916" duration="175000" />
+      <workItem from="1673204840047" duration="66000" />
+      <workItem from="1673204923527" duration="364000" />
+    </task>
+    <task id="LOCAL-00003" summary="update test message">
+      <created>1592124411761</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592124411761</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add a simple express app">
+      <created>1592124938673</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592124938673</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix index.js">
+      <created>1592132190859</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592132190859</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add docker management script">
+      <created>1592133327701</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592133327701</updated>
+    </task>
+    <task id="LOCAL-00007" summary="docker port mapping">
+      <created>1592136352193</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592136352193</updated>
+    </task>
+    <task id="LOCAL-00008" summary="specify docker container work directory">
+      <created>1592136818125</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1592136818125</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add redis">
+      <created>1592142956995</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1592142956995</updated>
+    </task>
+    <task id="LOCAL-00010" summary="set up redis client">
+      <created>1592143358688</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1592143358688</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update Dockerfile">
+      <created>1592143715949</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1592143715949</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add docker compose">
+      <created>1592145114862</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1592145114862</updated>
+    </task>
+    <task id="LOCAL-00013" summary="updete redis client">
+      <created>1592145439520</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1592145439520</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update containers start / stop commands">
+      <created>1592146349117</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1592146349117</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update main">
+      <created>1592147198299</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1592147198299</updated>
+    </task>
+    <task id="LOCAL-00016" summary="comment process exit">
+      <created>1592147983452</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1592147983452</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add simple test">
+      <created>1592149905065</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1592149905065</updated>
+    </task>
+    <task id="LOCAL-00018" summary="config ci">
+      <created>1592156136100</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1592156136100</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Revert &quot;add simple test&quot;&#10;&#10;This reverts commit 6e2114a4">
+      <created>1592156406688</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1592156406688</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Revert &quot;Revert &quot;add simple test&quot;&quot;&#10;&#10;This reverts commit 36ee927d">
+      <created>1592156709539</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1592156709539</updated>
+    </task>
+    <task id="LOCAL-00021" summary="try only one node">
+      <created>1592157173316</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1592157173316</updated>
+    </task>
+    <task id="LOCAL-00022" summary="update test">
+      <created>1592245652427</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1592245652427</updated>
+    </task>
+    <task id="LOCAL-00023" summary="init react">
+      <created>1592247869483</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1592247869483</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Revert &quot;init react&quot;&#10;&#10;This reverts commit ca9e6b6c">
+      <created>1592248401552</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1592248401552</updated>
+    </task>
+    <task id="LOCAL-00025" summary="merge changes">
+      <created>1592249204944</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1592249204944</updated>
+    </task>
+    <task id="LOCAL-00026" summary="update package">
+      <created>1592249785343</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1592249785343</updated>
+    </task>
+    <task id="LOCAL-00027" summary="init enzyme">
+      <created>1593667164691</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1593667164691</updated>
+    </task>
+    <task id="LOCAL-00028" summary="fix package-lock.json">
+      <created>1593717522018</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1593717522018</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add eslint">
+      <created>1594561479413</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1594561479413</updated>
+    </task>
+    <task id="LOCAL-00030" summary="fix react start">
+      <created>1594570712325</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1594570712325</updated>
+    </task>
+    <task id="LOCAL-00031" summary="run react with docker">
+      <created>1594571772375</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1594571772375</updated>
+    </task>
+    <task id="LOCAL-00032" summary="run react with docker-compose">
+      <created>1594583081939</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1594583081939</updated>
+    </task>
+    <task id="LOCAL-00033" summary="fix test">
+      <created>1594620225003</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1594620225003</updated>
+    </task>
+    <task id="LOCAL-00034" summary="build &amp;&amp; run prod app in docker">
+      <created>1594624173138</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1594624173138</updated>
+    </task>
+    <task id="LOCAL-00035" summary="update tests">
+      <created>1594628152286</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1594628152287</updated>
+    </task>
+    <task id="LOCAL-00036" summary="add travis">
+      <created>1595915559002</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1595915559002</updated>
+    </task>
+    <task id="LOCAL-00037" summary="fix tests">
+      <created>1595916381109</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1595916381109</updated>
+    </task>
+    <task id="LOCAL-00038" summary="mount app source">
+      <created>1595918701775</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1595918701775</updated>
+    </task>
+    <task id="LOCAL-00039" summary="copy source into dockerfile">
+      <created>1595919001538</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1595919001538</updated>
+    </task>
+    <task id="LOCAL-00040" summary="fix tests">
+      <created>1595919570092</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1595919570092</updated>
+    </task>
+    <task id="LOCAL-00041" summary="define node version">
+      <created>1595919921075</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1595919921075</updated>
+    </task>
+    <task id="LOCAL-00042" summary="fix">
+      <created>1595920143115</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1595920143115</updated>
+    </task>
+    <task id="LOCAL-00043" summary="fix2">
+      <created>1595920669321</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1595920669321</updated>
+    </task>
+    <task id="LOCAL-00044" summary="init dockerfile">
+      <created>1672923285776</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1672923285776</updated>
+    </task>
+    <task id="LOCAL-00045" summary="fix version">
+      <created>1672923569197</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1672923569197</updated>
+    </task>
+    <task id="LOCAL-00046" summary="fix docker cache usage">
+      <created>1672927071064</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1672927071064</updated>
+    </task>
+    <task id="LOCAL-00047" summary="docker compose">
+      <created>1673119220285</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1673119220285</updated>
+    </task>
+    <task id="LOCAL-00048" summary="react app init">
+      <created>1673122918259</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1673122918259</updated>
+    </task>
+    <task id="LOCAL-00049" summary="dockerize dev">
+      <created>1673172835943</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1673172835943</updated>
+    </task>
+    <task id="LOCAL-00050" summary="run tests">
+      <created>1673188848190</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1673188848191</updated>
+    </task>
+    <task id="LOCAL-00051" summary="build app">
+      <created>1673190221284</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1673190221284</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="test" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update package" />
+    <MESSAGE value="init enzyme" />
+    <MESSAGE value="fix package-lock.json" />
+    <MESSAGE value="add eslint" />
+    <MESSAGE value="fix react start" />
+    <MESSAGE value="run react with docker" />
+    <MESSAGE value="run react with docker-compose" />
+    <MESSAGE value="fix test" />
+    <MESSAGE value="build &amp;&amp; run prod app in docker" />
+    <MESSAGE value="update tests" />
+    <MESSAGE value="add travis" />
+    <MESSAGE value="mount app source" />
+    <MESSAGE value="copy source into dockerfile" />
+    <MESSAGE value="fix tests" />
+    <MESSAGE value="define node version" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="fix2" />
+    <MESSAGE value="init dockerfile" />
+    <MESSAGE value="fix version" />
+    <MESSAGE value="fix docker cache usage" />
+    <MESSAGE value="docker compose" />
+    <MESSAGE value="react app init" />
+    <MESSAGE value="dockerize dev" />
+    <MESSAGE value="run tests" />
+    <MESSAGE value="build app" />
+    <option name="LAST_COMMIT_MESSAGE" value="build app" />
+  </component>
+</project>

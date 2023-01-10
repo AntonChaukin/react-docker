@@ -17,5 +17,8 @@ RUN ["npm", "run", "build"]
 #Specify ngix base
 FROM nginx
 
+#Define port
+EXPOSE 80
+
 #Copy build directory to nginx work directory
 COPY --from=builder /app/build /usr/share/nginx/html

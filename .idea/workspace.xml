@@ -31,11 +31,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="fix gitignore">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-    </list>
+    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="add travis deploy config" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,20 +69,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/chacka/Project/nodejs-app-with-docker",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/chacka/Project/nodejs-app-with-docker&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -123,20 +119,7 @@
       <workItem from="1673204840047" duration="66000" />
       <workItem from="1673204923527" duration="1562000" />
       <workItem from="1673206507357" duration="392000" />
-    </task>
-    <task id="LOCAL-00004" summary="add a simple express app">
-      <created>1592124938673</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1592124938673</updated>
-    </task>
-    <task id="LOCAL-00005" summary="fix index.js">
-      <created>1592132190859</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1592132190859</updated>
+      <workItem from="1673256914615" duration="1307000" />
     </task>
     <task id="LOCAL-00006" summary="add docker management script">
       <created>1592133327701</created>
@@ -467,7 +450,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673206777552</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="fix something else">
+      <created>1673207403809</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1673207403809</updated>
+    </task>
+    <task id="LOCAL-00054" summary="add travis deploy config">
+      <created>1673360595060</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1673360595061</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,8 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init enzyme" />
-    <MESSAGE value="fix package-lock.json" />
     <MESSAGE value="add eslint" />
     <MESSAGE value="fix react start" />
     <MESSAGE value="run react with docker" />
@@ -522,6 +517,8 @@
     <MESSAGE value="run tests" />
     <MESSAGE value="build app" />
     <MESSAGE value="fix gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix gitignore" />
+    <MESSAGE value="fix something else" />
+    <MESSAGE value="add travis deploy config" />
+    <option name="LAST_COMMIT_MESSAGE" value="add travis deploy config" />
   </component>
 </project>

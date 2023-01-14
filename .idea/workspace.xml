@@ -31,10 +31,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="fix something else">
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="added new pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile.dev" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile.dev" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Fib.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Fib.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +46,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package.json" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -54,7 +54,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="deployment" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,6 +75,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -87,6 +88,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -124,34 +130,7 @@
       <workItem from="1673204923527" duration="1562000" />
       <workItem from="1673206507357" duration="392000" />
       <workItem from="1673256914615" duration="1307000" />
-    </task>
-    <task id="LOCAL-00005" summary="fix index.js">
-      <created>1592132190859</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1592132190859</updated>
-    </task>
-    <task id="LOCAL-00006" summary="add docker management script">
-      <created>1592133327701</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1592133327701</updated>
-    </task>
-    <task id="LOCAL-00007" summary="docker port mapping">
-      <created>1592136352193</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1592136352193</updated>
-    </task>
-    <task id="LOCAL-00008" summary="specify docker container work directory">
-      <created>1592136818125</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1592136818125</updated>
+      <workItem from="1673684310581" duration="3473000" />
     </task>
     <task id="LOCAL-00009" summary="add redis">
       <created>1592142956995</created>
@@ -468,7 +447,35 @@
       <option name="project" value="LOCAL" />
       <updated>1673207403809</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="worker finalize">
+      <created>1673617964279</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1673617964279</updated>
+    </task>
+    <task id="LOCAL-00055" summary="server init">
+      <created>1673622609429</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1673622609429</updated>
+    </task>
+    <task id="LOCAL-00056" summary="client move files in new work directory">
+      <created>1673622663232</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1673622663232</updated>
+    </task>
+    <task id="LOCAL-00057" summary="added new pages">
+      <created>1673623301775</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1673623301775</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,10 +505,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix package-lock.json" />
-    <MESSAGE value="add eslint" />
-    <MESSAGE value="fix react start" />
-    <MESSAGE value="run react with docker" />
     <MESSAGE value="run react with docker-compose" />
     <MESSAGE value="fix test" />
     <MESSAGE value="build &amp;&amp; run prod app in docker" />
@@ -523,6 +526,10 @@
     <MESSAGE value="build app" />
     <MESSAGE value="fix gitignore" />
     <MESSAGE value="fix something else" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix something else" />
+    <MESSAGE value="worker finalize" />
+    <MESSAGE value="server init" />
+    <MESSAGE value="client move files in new work directory" />
+    <MESSAGE value="added new pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new pages" />
   </component>
 </project>

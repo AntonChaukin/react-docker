@@ -31,9 +31,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="added new pages">
+    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="added fib calculate welcome page pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Fib.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Fib.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/OtherPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/OtherPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,14 +131,7 @@
       <workItem from="1673204923527" duration="1562000" />
       <workItem from="1673206507357" duration="392000" />
       <workItem from="1673256914615" duration="1307000" />
-      <workItem from="1673684310581" duration="3473000" />
-    </task>
-    <task id="LOCAL-00009" summary="add redis">
-      <created>1592142956995</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1592142956995</updated>
+      <workItem from="1673684310581" duration="4248000" />
     </task>
     <task id="LOCAL-00010" summary="set up redis client">
       <created>1592143358688</created>
@@ -475,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673623301775</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="added fib calculate welcome page pages">
+      <created>1673688431394</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1673688431395</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -505,7 +506,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="run react with docker-compose" />
     <MESSAGE value="fix test" />
     <MESSAGE value="build &amp;&amp; run prod app in docker" />
     <MESSAGE value="update tests" />
@@ -530,6 +530,7 @@
     <MESSAGE value="server init" />
     <MESSAGE value="client move files in new work directory" />
     <MESSAGE value="added new pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new pages" />
+    <MESSAGE value="added fib calculate welcome page pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fib calculate welcome page pages" />
   </component>
 </project>

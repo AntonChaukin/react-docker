@@ -31,8 +31,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="worker init">
+    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="added fib calculate welcome page pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/OtherPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/OtherPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,21 +74,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/chacka/Project/nodejs-app-with-docker",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/chacka/Project/nodejs-app-with-docker&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -124,21 +131,7 @@
       <workItem from="1673204923527" duration="1562000" />
       <workItem from="1673206507357" duration="392000" />
       <workItem from="1673256914615" duration="1307000" />
-      <workItem from="1673430249285" duration="1979000" />
-    </task>
-    <task id="LOCAL-00008" summary="specify docker container work directory">
-      <created>1592136818125</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1592136818125</updated>
-    </task>
-    <task id="LOCAL-00009" summary="add redis">
-      <created>1592142956995</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1592142956995</updated>
+      <workItem from="1673684310581" duration="4248000" />
     </task>
     <task id="LOCAL-00010" summary="set up redis client">
       <created>1592143358688</created>
@@ -448,28 +441,42 @@
       <option name="project" value="LOCAL" />
       <updated>1673207403809</updated>
     </task>
-    <task id="LOCAL-00054" summary="add travis deploy config">
-      <created>1673360595060</created>
+    <task id="LOCAL-00054" summary="worker finalize">
+      <created>1673617964279</created>
       <option name="number" value="00054" />
       <option name="presentableId" value="LOCAL-00054" />
       <option name="project" value="LOCAL" />
-      <updated>1673360595061</updated>
+      <updated>1673617964279</updated>
     </task>
-    <task id="LOCAL-00055" summary="add expose 80">
-      <created>1673361116783</created>
+    <task id="LOCAL-00055" summary="server init">
+      <created>1673622609429</created>
       <option name="number" value="00055" />
       <option name="presentableId" value="LOCAL-00055" />
       <option name="project" value="LOCAL" />
-      <updated>1673361116784</updated>
+      <updated>1673622609429</updated>
     </task>
-    <task id="LOCAL-00056" summary="worker init">
-      <created>1673460164093</created>
+    <task id="LOCAL-00056" summary="client move files in new work directory">
+      <created>1673622663232</created>
       <option name="number" value="00056" />
       <option name="presentableId" value="LOCAL-00056" />
       <option name="project" value="LOCAL" />
-      <updated>1673460164093</updated>
+      <updated>1673622663232</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="added new pages">
+      <created>1673623301775</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1673623301775</updated>
+    </task>
+    <task id="LOCAL-00058" summary="added fib calculate welcome page pages">
+      <created>1673688431394</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1673688431395</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -499,8 +506,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="run react with docker" />
-    <MESSAGE value="run react with docker-compose" />
     <MESSAGE value="fix test" />
     <MESSAGE value="build &amp;&amp; run prod app in docker" />
     <MESSAGE value="update tests" />
@@ -521,9 +526,11 @@
     <MESSAGE value="build app" />
     <MESSAGE value="fix gitignore" />
     <MESSAGE value="fix something else" />
-    <MESSAGE value="add travis deploy config" />
-    <MESSAGE value="add expose 80" />
-    <MESSAGE value="worker init" />
-    <option name="LAST_COMMIT_MESSAGE" value="worker init" />
+    <MESSAGE value="worker finalize" />
+    <MESSAGE value="server init" />
+    <MESSAGE value="client move files in new work directory" />
+    <MESSAGE value="added new pages" />
+    <MESSAGE value="added fib calculate welcome page pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fib calculate welcome page pages" />
   </component>
 </project>

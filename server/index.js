@@ -10,8 +10,8 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Postgres Client Setup
-const {Poll} = require('pg');
-const pgClient = new Poll({
+const {Pool} = require('pg');
+const pgClient = new Pool({
     user: pgUser,
     host: pgHost,
     database: pgDatabase,

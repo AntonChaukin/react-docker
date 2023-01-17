@@ -31,9 +31,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="creating dev dockerfiles">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="docker compose config">
+      <change afterPath="$PROJECT_DIR$/nginx/default.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,13 +136,6 @@
       <workItem from="1673206507357" duration="392000" />
       <workItem from="1673256914615" duration="1307000" />
       <workItem from="1673684310581" duration="4248000" />
-    </task>
-    <task id="LOCAL-00011" summary="update Dockerfile">
-      <created>1592143715949</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1592143715949</updated>
     </task>
     <task id="LOCAL-00012" summary="add docker compose">
       <created>1592145114862</created>
@@ -479,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673947173482</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="docker compose config">
+      <created>1673966558352</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1673966558352</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,7 +510,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="build &amp;&amp; run prod app in docker" />
     <MESSAGE value="update tests" />
     <MESSAGE value="add travis" />
     <MESSAGE value="mount app source" />
@@ -534,6 +534,7 @@
     <MESSAGE value="added new pages" />
     <MESSAGE value="added fib calculate welcome page pages" />
     <MESSAGE value="creating dev dockerfiles" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating dev dockerfiles" />
+    <MESSAGE value="docker compose config" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker compose config" />
   </component>
 </project>

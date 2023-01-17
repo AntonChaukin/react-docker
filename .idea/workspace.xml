@@ -31,10 +31,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="add expose 80">
-      <change afterPath="$PROJECT_DIR$/worker/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worker/keys.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worker/package.json" afterDir="false" />
+    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="worker init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,14 +124,7 @@
       <workItem from="1673204923527" duration="1562000" />
       <workItem from="1673206507357" duration="392000" />
       <workItem from="1673256914615" duration="1307000" />
-      <workItem from="1673430249285" duration="1307000" />
-    </task>
-    <task id="LOCAL-00007" summary="docker port mapping">
-      <created>1592136352193</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1592136352193</updated>
+      <workItem from="1673430249285" duration="1979000" />
     </task>
     <task id="LOCAL-00008" summary="specify docker container work directory">
       <created>1592136818125</created>
@@ -472,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673361116784</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="worker init">
+      <created>1673460164093</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1673460164093</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,7 +499,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix react start" />
     <MESSAGE value="run react with docker" />
     <MESSAGE value="run react with docker-compose" />
     <MESSAGE value="fix test" />
@@ -527,6 +523,7 @@
     <MESSAGE value="fix something else" />
     <MESSAGE value="add travis deploy config" />
     <MESSAGE value="add expose 80" />
-    <option name="LAST_COMMIT_MESSAGE" value="add expose 80" />
+    <MESSAGE value="worker init" />
+    <option name="LAST_COMMIT_MESSAGE" value="worker init" />
   </component>
 </project>

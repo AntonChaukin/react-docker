@@ -31,9 +31,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="fix exporting other page">
-      <change afterPath="$PROJECT_DIR$/nginx/Dockerfile.dev" afterDir="false" />
+    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="added nginx in docker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/Dockerfile.dev" beforeDir="false" afterPath="$PROJECT_DIR$/client/Dockerfile.dev" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Fib.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Fib.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +73,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/client/package.json" />
   </component>
   <component name="ProjectId" id="1dIqta8NS5ZRs9IU0RYAygZF9TN" />
   <component name="ProjectViewState">
@@ -136,14 +144,8 @@
       <workItem from="1673206507357" duration="392000" />
       <workItem from="1673256914615" duration="1307000" />
       <workItem from="1673684310581" duration="4248000" />
-      <workItem from="1674830361727" duration="340000" />
-    </task>
-    <task id="LOCAL-00012" summary="add docker compose">
-      <created>1592145114862</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1592145114862</updated>
+      <workItem from="1674830361727" duration="2226000" />
+      <workItem from="1674833469610" duration="4152000" />
     </task>
     <task id="LOCAL-00013" summary="updete redis client">
       <created>1592145439520</created>
@@ -481,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673966558352</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="added nginx in docker">
+      <created>1674830734574</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1674830734575</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +520,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update tests" />
     <MESSAGE value="add travis" />
     <MESSAGE value="mount app source" />
     <MESSAGE value="copy source into dockerfile" />
@@ -536,6 +544,7 @@
     <MESSAGE value="added fib calculate welcome page pages" />
     <MESSAGE value="creating dev dockerfiles" />
     <MESSAGE value="docker compose config" />
-    <option name="LAST_COMMIT_MESSAGE" value="docker compose config" />
+    <MESSAGE value="added nginx in docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="added nginx in docker" />
   </component>
 </project>

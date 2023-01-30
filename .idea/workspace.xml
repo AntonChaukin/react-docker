@@ -31,7 +31,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="add travis configurations" />
+    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="fix test">
+      <change beforePath="$PROJECT_DIR$/client/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.test.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,14 +139,7 @@
       <workItem from="1673684310581" duration="4248000" />
       <workItem from="1674830361727" duration="2226000" />
       <workItem from="1674833469610" duration="11114000" />
-      <workItem from="1675084172487" duration="4621000" />
-    </task>
-    <task id="LOCAL-00017" summary="add simple test">
-      <created>1592149905065</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1592149905065</updated>
+      <workItem from="1675084172487" duration="4949000" />
     </task>
     <task id="LOCAL-00018" summary="config ci">
       <created>1592156136100</created>
@@ -482,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675088826522</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="fix test">
+      <created>1675089111706</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1675089111706</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,7 +514,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="define node version" />
     <MESSAGE value="fix" />
     <MESSAGE value="fix2" />
     <MESSAGE value="init dockerfile" />
@@ -537,6 +538,7 @@
     <MESSAGE value="fixed socket and auto complete calculated values" />
     <MESSAGE value="product configurations" />
     <MESSAGE value="add travis configurations" />
-    <option name="LAST_COMMIT_MESSAGE" value="add travis configurations" />
+    <MESSAGE value="fix test" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix test" />
   </component>
 </project>

@@ -13,17 +13,24 @@ after_success:
   - docker build -t antonchaukin/multi-nginx ./nginx
   - docker build -t antonchaukin/multi-server ./server
   - docker build -t antonchaukin/multi-worker ./worker
+  # Log in to the Docker CLI
+  - echo "$DOCKER_PSW" | docker login -u "$DOCKER_ID" --password-stdin
+  # Take those images and push them into the docker hub
+  - docker push antonchaukin/multi-client
+  - docker push antonchaukin/multi-nginx
+  - docker push antonchaukin/multi-server
+  - docker push antonchaukin/multi-worker
 
-#deploy:
-#  provider: elasticbeanstalk
-#  region: "us-east-1"
-#  app: "react-docker"
-#  env: "Reactdocker-env"
-#  bucket_name: "elasticbeanstalk-us-east-1-297887861797"
-#  bucket_path: "react-docker"
-#  on:
-#    branch: main
-#  access_key_id: $AWS_ACCESS_KEY
-#  secret_access_key: $AWS_SECRET_KEY
+deploy:
+  provider: elasticbeanstalk
+  region: "us-east-1"
+  app: "multi-react"
+  env: "Multireact-env"
+  bucket_name: "elasticbeanstalk-us-east-1-297887861797"
+  bucket_path: "multi-react"
+  on:
+    branch: main
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
 
 language: generic

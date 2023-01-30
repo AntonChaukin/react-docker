@@ -14,7 +14,7 @@ after_success:
   - docker build -t antonchaukin/multi-server ./server
   - docker build -t antonchaukin/multi-worker ./worker
   # Log in to the Docker CLI
-  - echo "$DOCKER_PASW" | docker login -u "$DOCKER_ID" --password-stdin
+  - echo "$DOCKER_PSW" | docker login -u "$DOCKER_ID" --password-stdin
   # Take those images and push them into the docker hub
   - docker push antonchaukin/multi-client
   - docker push antonchaukin/multi-nginx

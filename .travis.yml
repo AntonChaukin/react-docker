@@ -9,7 +9,6 @@ script:
   - docker run -e CI=true antonchaukin/react-test npm run test
 
 after_success:
-  - if: branch = main
   - docker build -t antonchaukin/multi-client ./client
   - docker build -t antonchaukin/multi-nginx ./nginx
   - docker build -t antonchaukin/multi-server ./server

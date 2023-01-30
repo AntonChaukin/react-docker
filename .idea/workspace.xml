@@ -31,9 +31,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="dont fix test)=">
+    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="build images in main branch only">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,21 +139,7 @@
       <workItem from="1673684310581" duration="4248000" />
       <workItem from="1674830361727" duration="2226000" />
       <workItem from="1674833469610" duration="11114000" />
-      <workItem from="1675084172487" duration="7081000" />
-    </task>
-    <task id="LOCAL-00020" summary="Revert &quot;Revert &quot;add simple test&quot;&quot;&#10;&#10;This reverts commit 36ee927d">
-      <created>1592156709539</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1592156709539</updated>
-    </task>
-    <task id="LOCAL-00021" summary="try only one node">
-      <created>1592157173316</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1592157173316</updated>
+      <workItem from="1675084172487" duration="8132000" />
     </task>
     <task id="LOCAL-00022" summary="update test">
       <created>1592245652427</created>
@@ -485,7 +470,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675089700882</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="added docker push in travis yml">
+      <created>1675093616628</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1675093616628</updated>
+    </task>
+    <task id="LOCAL-00070" summary="build images in main branch only">
+      <created>1675093935201</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1675093935201</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,8 +514,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init dockerfile" />
-    <MESSAGE value="fix version" />
     <MESSAGE value="fix docker cache usage" />
     <MESSAGE value="docker compose" />
     <MESSAGE value="react app init" />
@@ -540,6 +537,8 @@
     <MESSAGE value="fix test" />
     <MESSAGE value="try to fix test" />
     <MESSAGE value="dont fix test)=" />
-    <option name="LAST_COMMIT_MESSAGE" value="dont fix test)=" />
+    <MESSAGE value="added docker push in travis yml" />
+    <MESSAGE value="build images in main branch only" />
+    <option name="LAST_COMMIT_MESSAGE" value="build images in main branch only" />
   </component>
 </project>

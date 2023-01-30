@@ -18,7 +18,10 @@ RUN ["npm", "run", "build"]
 FROM nginx
 
 #Define port
-EXPOSE 80
+EXPOSE 3000
+
+#Copy nginx default config file
+COPY ./nginx/default.conf /etc/nginx/conf.d/default.conf
 
 #Copy build directory to nginx work directory
 COPY --from=builder /app/build /usr/share/nginx/html

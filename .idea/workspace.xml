@@ -31,7 +31,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="add travis deploy config" />
+    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="fix test">
+      <change beforePath="$PROJECT_DIR$/client/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.test.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +45,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package.json" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -50,7 +53,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="deployment" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,6 +67,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/client/package.json" />
+  </component>
   <component name="ProjectId" id="1dIqta8NS5ZRs9IU0RYAygZF9TN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -71,10 +77,11 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/chacka/Project/nodejs-app-with-docker&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/chaukin/Transcend/git/react-docker/worker&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -83,6 +90,15 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/worker" />
+      <recent name="$PROJECT_DIR$/server" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -120,90 +136,10 @@
       <workItem from="1673204923527" duration="1562000" />
       <workItem from="1673206507357" duration="392000" />
       <workItem from="1673256914615" duration="1307000" />
-    </task>
-    <task id="LOCAL-00006" summary="add docker management script">
-      <created>1592133327701</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1592133327701</updated>
-    </task>
-    <task id="LOCAL-00007" summary="docker port mapping">
-      <created>1592136352193</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1592136352193</updated>
-    </task>
-    <task id="LOCAL-00008" summary="specify docker container work directory">
-      <created>1592136818125</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1592136818125</updated>
-    </task>
-    <task id="LOCAL-00009" summary="add redis">
-      <created>1592142956995</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1592142956995</updated>
-    </task>
-    <task id="LOCAL-00010" summary="set up redis client">
-      <created>1592143358688</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1592143358688</updated>
-    </task>
-    <task id="LOCAL-00011" summary="update Dockerfile">
-      <created>1592143715949</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1592143715949</updated>
-    </task>
-    <task id="LOCAL-00012" summary="add docker compose">
-      <created>1592145114862</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1592145114862</updated>
-    </task>
-    <task id="LOCAL-00013" summary="updete redis client">
-      <created>1592145439520</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1592145439520</updated>
-    </task>
-    <task id="LOCAL-00014" summary="update containers start / stop commands">
-      <created>1592146349117</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1592146349117</updated>
-    </task>
-    <task id="LOCAL-00015" summary="update main">
-      <created>1592147198299</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1592147198299</updated>
-    </task>
-    <task id="LOCAL-00016" summary="comment process exit">
-      <created>1592147983452</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1592147983452</updated>
-    </task>
-    <task id="LOCAL-00017" summary="add simple test">
-      <created>1592149905065</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1592149905065</updated>
+      <workItem from="1673684310581" duration="4248000" />
+      <workItem from="1674830361727" duration="2226000" />
+      <workItem from="1674833469610" duration="11114000" />
+      <workItem from="1675084172487" duration="4949000" />
     </task>
     <task id="LOCAL-00018" summary="config ci">
       <created>1592156136100</created>
@@ -457,14 +393,98 @@
       <option name="project" value="LOCAL" />
       <updated>1673207403809</updated>
     </task>
-    <task id="LOCAL-00054" summary="add travis deploy config">
-      <created>1673360595060</created>
+    <task id="LOCAL-00054" summary="worker finalize">
+      <created>1673617964279</created>
       <option name="number" value="00054" />
       <option name="presentableId" value="LOCAL-00054" />
       <option name="project" value="LOCAL" />
-      <updated>1673360595061</updated>
+      <updated>1673617964279</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="server init">
+      <created>1673622609429</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1673622609429</updated>
+    </task>
+    <task id="LOCAL-00056" summary="client move files in new work directory">
+      <created>1673622663232</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1673622663232</updated>
+    </task>
+    <task id="LOCAL-00057" summary="added new pages">
+      <created>1673623301775</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1673623301775</updated>
+    </task>
+    <task id="LOCAL-00058" summary="added fib calculate welcome page pages">
+      <created>1673688431394</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1673688431395</updated>
+    </task>
+    <task id="LOCAL-00059" summary="creating dev dockerfiles">
+      <created>1673947173482</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1673947173482</updated>
+    </task>
+    <task id="LOCAL-00060" summary="docker compose config">
+      <created>1673966558352</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1673966558352</updated>
+    </task>
+    <task id="LOCAL-00061" summary="added nginx in docker">
+      <created>1674830734574</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1674830734575</updated>
+    </task>
+    <task id="LOCAL-00062" summary="fixed routing">
+      <created>1674837777029</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1674837777030</updated>
+    </task>
+    <task id="LOCAL-00063" summary="fixed socket and auto complete calculated values">
+      <created>1674847655146</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1674847655146</updated>
+    </task>
+    <task id="LOCAL-00064" summary="product configurations">
+      <created>1675086342580</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1675086342580</updated>
+    </task>
+    <task id="LOCAL-00065" summary="add travis configurations">
+      <created>1675088826522</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1675088826522</updated>
+    </task>
+    <task id="LOCAL-00066" summary="fix test">
+      <created>1675089111706</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1675089111706</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,18 +514,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add eslint" />
-    <MESSAGE value="fix react start" />
-    <MESSAGE value="run react with docker" />
-    <MESSAGE value="run react with docker-compose" />
-    <MESSAGE value="fix test" />
-    <MESSAGE value="build &amp;&amp; run prod app in docker" />
-    <MESSAGE value="update tests" />
-    <MESSAGE value="add travis" />
-    <MESSAGE value="mount app source" />
-    <MESSAGE value="copy source into dockerfile" />
-    <MESSAGE value="fix tests" />
-    <MESSAGE value="define node version" />
     <MESSAGE value="fix" />
     <MESSAGE value="fix2" />
     <MESSAGE value="init dockerfile" />
@@ -518,7 +526,19 @@
     <MESSAGE value="build app" />
     <MESSAGE value="fix gitignore" />
     <MESSAGE value="fix something else" />
-    <MESSAGE value="add travis deploy config" />
-    <option name="LAST_COMMIT_MESSAGE" value="add travis deploy config" />
+    <MESSAGE value="worker finalize" />
+    <MESSAGE value="server init" />
+    <MESSAGE value="client move files in new work directory" />
+    <MESSAGE value="added new pages" />
+    <MESSAGE value="added fib calculate welcome page pages" />
+    <MESSAGE value="creating dev dockerfiles" />
+    <MESSAGE value="docker compose config" />
+    <MESSAGE value="added nginx in docker" />
+    <MESSAGE value="fixed routing" />
+    <MESSAGE value="fixed socket and auto complete calculated values" />
+    <MESSAGE value="product configurations" />
+    <MESSAGE value="add travis configurations" />
+    <MESSAGE value="fix test" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix test" />
   </component>
 </project>

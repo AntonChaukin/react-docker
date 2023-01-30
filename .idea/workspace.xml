@@ -31,7 +31,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="remove if" />
+    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="fix docker environment">
+      <change afterPath="$PROJECT_DIR$/docker-compose-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,14 +142,7 @@
       <workItem from="1673684310581" duration="4248000" />
       <workItem from="1674830361727" duration="2226000" />
       <workItem from="1674833469610" duration="11114000" />
-      <workItem from="1675084172487" duration="8779000" />
-    </task>
-    <task id="LOCAL-00023" summary="init react">
-      <created>1592247869483</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1592247869483</updated>
+      <workItem from="1675084172487" duration="13788000" />
     </task>
     <task id="LOCAL-00024" summary="Revert &quot;init react&quot;&#10;&#10;This reverts commit ca9e6b6c">
       <created>1592248401552</created>
@@ -482,7 +480,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675094773725</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="fix docker environment">
+      <created>1675100375619</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1675100375620</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,7 +517,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="docker compose" />
     <MESSAGE value="react app init" />
     <MESSAGE value="dockerize dev" />
     <MESSAGE value="run tests" />
@@ -537,6 +541,7 @@
     <MESSAGE value="added docker push in travis yml" />
     <MESSAGE value="build images in main branch only" />
     <MESSAGE value="remove if" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove if" />
+    <MESSAGE value="fix docker environment" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix docker environment" />
   </component>
 </project>

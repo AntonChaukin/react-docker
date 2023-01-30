@@ -21,16 +21,16 @@ after_success:
   - docker push antonchaukin/multi-server
   - docker push antonchaukin/multi-worker
 
-#deploy:
-#  provider: elasticbeanstalk
-#  region: "us-east-1"
-#  app: "react-docker"
-#  env: "Reactdocker-env"
-#  bucket_name: "elasticbeanstalk-us-east-1-297887861797"
-#  bucket_path: "react-docker"
-#  on:
-#    branch: main
-#  access_key_id: $AWS_ACCESS_KEY
-#  secret_access_key: $AWS_SECRET_KEY
+deploy:
+  provider: elasticbeanstalk
+  region: "us-east-1"
+  app: "multi-react"
+  env: "Multireact-env"
+  bucket_name: "elasticbeanstalk-us-east-1-297887861797"
+  bucket_path: "multi-react"
+  on:
+    branch: main
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
 
 language: generic

@@ -31,13 +31,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="fixed socket and auto complete calculated values">
-      <change afterPath="$PROJECT_DIR$/client/nginx/default.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worker/Dockerfile" afterDir="false" />
+    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="product configurations">
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/client/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,14 +141,7 @@
       <workItem from="1673684310581" duration="4248000" />
       <workItem from="1674830361727" duration="2226000" />
       <workItem from="1674833469610" duration="11114000" />
-      <workItem from="1675084172487" duration="1740000" />
-    </task>
-    <task id="LOCAL-00015" summary="update main">
-      <created>1592147198299</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1592147198299</updated>
+      <workItem from="1675084172487" duration="4310000" />
     </task>
     <task id="LOCAL-00016" summary="comment process exit">
       <created>1592147983452</created>
@@ -489,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674847655146</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="product configurations">
+      <created>1675086342580</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1675086342580</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,7 +516,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="copy source into dockerfile" />
     <MESSAGE value="fix tests" />
     <MESSAGE value="define node version" />
     <MESSAGE value="fix" />
@@ -544,6 +540,7 @@
     <MESSAGE value="added nginx in docker" />
     <MESSAGE value="fixed routing" />
     <MESSAGE value="fixed socket and auto complete calculated values" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed socket and auto complete calculated values" />
+    <MESSAGE value="product configurations" />
+    <option name="LAST_COMMIT_MESSAGE" value="product configurations" />
   </component>
 </project>

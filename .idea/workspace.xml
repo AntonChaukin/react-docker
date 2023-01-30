@@ -31,8 +31,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="fix test">
-      <change beforePath="$PROJECT_DIR$/client/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.test.js" afterDir="false" />
+    <list default="true" id="85a811fa-1490-482a-adfb-25c600c9d40e" name="Default Changelist" comment="dont fix test)=">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,21 +140,7 @@
       <workItem from="1673684310581" duration="4248000" />
       <workItem from="1674830361727" duration="2226000" />
       <workItem from="1674833469610" duration="11114000" />
-      <workItem from="1675084172487" duration="4949000" />
-    </task>
-    <task id="LOCAL-00018" summary="config ci">
-      <created>1592156136100</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1592156136100</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Revert &quot;add simple test&quot;&#10;&#10;This reverts commit 6e2114a4">
-      <created>1592156406688</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1592156406688</updated>
+      <workItem from="1675084172487" duration="7081000" />
     </task>
     <task id="LOCAL-00020" summary="Revert &quot;Revert &quot;add simple test&quot;&quot;&#10;&#10;This reverts commit 36ee927d">
       <created>1592156709539</created>
@@ -484,7 +471,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675089111706</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="try to fix test">
+      <created>1675089390465</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1675089390465</updated>
+    </task>
+    <task id="LOCAL-00068" summary="dont fix test)=">
+      <created>1675089700882</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1675089700882</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -514,8 +515,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix" />
-    <MESSAGE value="fix2" />
     <MESSAGE value="init dockerfile" />
     <MESSAGE value="fix version" />
     <MESSAGE value="fix docker cache usage" />
@@ -539,6 +538,8 @@
     <MESSAGE value="product configurations" />
     <MESSAGE value="add travis configurations" />
     <MESSAGE value="fix test" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix test" />
+    <MESSAGE value="try to fix test" />
+    <MESSAGE value="dont fix test)=" />
+    <option name="LAST_COMMIT_MESSAGE" value="dont fix test)=" />
   </component>
 </project>
